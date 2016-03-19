@@ -107,6 +107,7 @@ body {
     min-width: 120px;
     padding: 6px 6px 6px 6px;
     border-bottom-left-radius: 4px;
+    display: block;
 }
 
 #run_button_content {

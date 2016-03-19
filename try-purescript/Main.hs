@@ -33,7 +33,7 @@ compileWorker mv unmask =
           Left err -> setError (show err)
           Right parseResult ->
              case LPP.compile parseResult LPP.initialContext of
-                  Left err            -> do 
+                  Left err            -> do
                     let errString = show err
                     setError $ show err
                   Right (_, output) -> [js_| tryps.setResult(`output); |]
@@ -44,7 +44,7 @@ abortCompilation worker = killThread worker
 main :: IO ()
 main = do
   [js_| trypsInit();
-        tryps.setBusy('Compiling Prelude...');
+        tryps.setResult('Enter your code on the left, then click the button on the right to typecheck.');
       |]
   --prelSrc <- [js| tryps.getPrelude() |]
   --let parsePS src = either (error . show) (map snd) $
