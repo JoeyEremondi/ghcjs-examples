@@ -22,6 +22,9 @@ import GHCJS.Foreign.QQ
 setError :: String -> IO ()
 setError xs = [js_| tryps.setError(`xs); |]
 
+reportSource :: String -> IO ()
+reportSource src = [js_| tryps.reportTypeError(`src); |]
+
 compileWorker :: MVar String -> (forall a. IO a -> IO a) -> IO ()
 compileWorker mv unmask =
   forever $ unmask doCompile `catch` \(e::AsyncException) -> return ()
@@ -36,6 +39,7 @@ compileWorker mv unmask =
                   Left err            -> do
                     let errString = show err
                     setError $ show err
+                    reportSource src
                   Right (_, output) -> [js_| tryps.setResult(`output); |]
 
 abortCompilation :: ThreadId -> IO ()

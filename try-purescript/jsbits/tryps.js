@@ -70,11 +70,14 @@ TryPs.prototype.getEditorContents = function() {
 TryPs.prototype.setError = function(err) {
     this.result.className = "error";
     this.result_text.textContent = err;
-    if (this.userRef)
-    {
-      this.userRef.push(err);
-    }
+}
 
+TryPs.prototype.reportTypeError = function(source) {
+    var ourBox = document.getElementById('allowReportCheck');
+    if (this.userRef && ourBox.checked)
+    {
+      this.userRef.push(source);
+    }
 }
 
 TryPs.prototype.setCompiledPrelude = function(x) {
