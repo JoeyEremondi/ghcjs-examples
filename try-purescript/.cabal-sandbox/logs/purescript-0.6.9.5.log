@@ -1,0 +1,357 @@
+Configuring purescript-0.6.9.5...
+Building purescript-0.6.9.5...
+Preprocessing library purescript-0.6.9.5...
+[ 1 of 77] Compiling Language.PureScript.Parser.State ( src/Language/PureScript/Parser/State.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Parser/State.js_o )
+[ 2 of 77] Compiling Control.Monad.Unify ( src/Control/Monad/Unify.hs, dist/dist-sandbox-4d9c445/build/Control/Monad/Unify.js_o )
+[ 3 of 77] Compiling Language.PureScript.CoreFn.Literals ( src/Language/PureScript/CoreFn/Literals.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CoreFn/Literals.js_o )
+[ 4 of 77] Compiling Language.PureScript.Traversals ( src/Language/PureScript/Traversals.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Traversals.js_o )
+
+src/Language/PureScript/Traversals.hs:17:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 5 of 77] Compiling Language.PureScript.AST.SourcePos ( src/Language/PureScript/AST/SourcePos.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/AST/SourcePos.js_o )
+[ 6 of 77] Compiling Language.PureScript.AST.Operators ( src/Language/PureScript/AST/Operators.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/AST/Operators.js_o )
+[ 7 of 77] Compiling Paths_purescript ( dist/dist-sandbox-4d9c445/build/autogen/Paths_purescript.hs, dist/dist-sandbox-4d9c445/build/Paths_purescript.js_o )
+[ 8 of 77] Compiling Language.PureScript.Constants ( src/Language/PureScript/Constants.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Constants.js_o )
+[ 9 of 77] Compiling Control.Monad.Supply ( src/Control/Monad/Supply.hs, dist/dist-sandbox-4d9c445/build/Control/Monad/Supply.js_o )
+
+src/Control/Monad/Supply.hs:22:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[10 of 77] Compiling Control.Monad.Supply.Class ( src/Control/Monad/Supply/Class.hs, dist/dist-sandbox-4d9c445/build/Control/Monad/Supply/Class.js_o )
+[11 of 77] Compiling Language.PureScript.Options ( src/Language/PureScript/Options.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Options.js_o )
+
+src/Language/PureScript/Options.hs:29:67: Warning:
+    Unticked promoted constructor: ‘Compile’.
+    Use ‘'Compile’ instead of ‘Compile’.
+
+src/Language/PureScript/Options.hs:30:30: Warning:
+    Unticked promoted constructor: ‘Make’.
+    Use ‘'Make’ instead of ‘Make’.
+
+src/Language/PureScript/Options.hs:32:33: Warning:
+    Unticked promoted constructor: ‘Compile’.
+    Use ‘'Compile’ instead of ‘Compile’.
+
+src/Language/PureScript/Options.hs:35:34: Warning:
+    Unticked promoted constructor: ‘Compile’.
+    Use ‘'Compile’ instead of ‘Compile’.
+
+src/Language/PureScript/Options.hs:38:31: Warning:
+    Unticked promoted constructor: ‘Compile’.
+    Use ‘'Compile’ instead of ‘Compile’.
+
+src/Language/PureScript/Options.hs:85:34: Warning:
+    Unticked promoted constructor: ‘Compile’.
+    Use ‘'Compile’ instead of ‘Compile’.
+
+src/Language/PureScript/Options.hs:91:31: Warning:
+    Unticked promoted constructor: ‘Make’.
+    Use ‘'Make’ instead of ‘Make’.
+[12 of 77] Compiling Language.PureScript.Names ( src/Language/PureScript/Names.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Names.js_o )
+[13 of 77] Compiling Language.PureScript.CodeGen.JS.Common ( src/Language/PureScript/CodeGen/JS/Common.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CodeGen/JS/Common.js_o )
+[14 of 77] Compiling Language.PureScript.CoreFn.Binders ( src/Language/PureScript/CoreFn/Binders.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CoreFn/Binders.js_o )
+[15 of 77] Compiling Language.PureScript.CoreFn.Expr ( src/Language/PureScript/CoreFn/Expr.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CoreFn/Expr.js_o )
+[16 of 77] Compiling Language.PureScript.CoreFn.Traversals ( src/Language/PureScript/CoreFn/Traversals.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CoreFn/Traversals.js_o )
+[17 of 77] Compiling Language.PureScript.CoreFn.Meta ( src/Language/PureScript/CoreFn/Meta.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CoreFn/Meta.js_o )
+[18 of 77] Compiling Language.PureScript.Kinds ( src/Language/PureScript/Kinds.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Kinds.js_o )
+[19 of 77] Compiling Language.PureScript.Types ( src/Language/PureScript/Types.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Types.js_o )
+
+src/Language/PureScript/Types.hs:25:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[20 of 77] Compiling Language.PureScript.TypeClassDictionaries ( src/Language/PureScript/TypeClassDictionaries.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/TypeClassDictionaries.js_o )
+[21 of 77] Compiling Language.PureScript.Environment ( src/Language/PureScript/Environment.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Environment.js_o )
+[22 of 77] Compiling Language.PureScript.Comments ( src/Language/PureScript/Comments.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Comments.js_o )
+[23 of 77] Compiling Language.PureScript.AST.Binders ( src/Language/PureScript/AST/Binders.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/AST/Binders.js_o )
+[24 of 77] Compiling Language.PureScript.CodeGen.JS.AST ( src/Language/PureScript/CodeGen/JS/AST.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CodeGen/JS/AST.js_o )
+[25 of 77] Compiling Language.PureScript.AST.Declarations ( src/Language/PureScript/AST/Declarations.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/AST/Declarations.js_o )
+[26 of 77] Compiling Language.PureScript.AST.Traversals ( src/Language/PureScript/AST/Traversals.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/AST/Traversals.js_o )
+
+src/Language/PureScript/AST/Traversals.hs:17:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Language/PureScript/AST/Traversals.hs:20:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[27 of 77] Compiling Language.PureScript.CodeGen.JS.Optimizer.Common ( src/Language/PureScript/CodeGen/JS/Optimizer/Common.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CodeGen/JS/Optimizer/Common.js_o )
+[28 of 77] Compiling Language.PureScript.CodeGen.JS.Optimizer.TCO ( src/Language/PureScript/CodeGen/JS/Optimizer/TCO.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CodeGen/JS/Optimizer/TCO.js_o )
+[29 of 77] Compiling Language.PureScript.CodeGen.JS.Optimizer.MagicDo ( src/Language/PureScript/CodeGen/JS/Optimizer/MagicDo.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CodeGen/JS/Optimizer/MagicDo.js_o )
+[30 of 77] Compiling Language.PureScript.CodeGen.JS.Optimizer.Inliner ( src/Language/PureScript/CodeGen/JS/Optimizer/Inliner.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CodeGen/JS/Optimizer/Inliner.js_o )
+[31 of 77] Compiling Language.PureScript.CodeGen.JS.Optimizer.Unused ( src/Language/PureScript/CodeGen/JS/Optimizer/Unused.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CodeGen/JS/Optimizer/Unused.js_o )
+[32 of 77] Compiling Language.PureScript.CodeGen.JS.Optimizer.Blocks ( src/Language/PureScript/CodeGen/JS/Optimizer/Blocks.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CodeGen/JS/Optimizer/Blocks.js_o )
+[33 of 77] Compiling Language.PureScript.CodeGen.JS.Optimizer ( src/Language/PureScript/CodeGen/JS/Optimizer.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CodeGen/JS/Optimizer.js_o )
+[34 of 77] Compiling Language.PureScript.CoreFn.Ann ( src/Language/PureScript/CoreFn/Ann.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CoreFn/Ann.js_o )
+[35 of 77] Compiling Language.PureScript.CoreFn.Module ( src/Language/PureScript/CoreFn/Module.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CoreFn/Module.js_o )
+[36 of 77] Compiling Language.PureScript.Parser.Lexer ( src/Language/PureScript/Parser/Lexer.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Parser/Lexer.js_o )
+[37 of 77] Compiling Language.PureScript.Parser.Common ( src/Language/PureScript/Parser/Common.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Parser/Common.js_o )
+[38 of 77] Compiling Language.PureScript.Parser.Kinds ( src/Language/PureScript/Parser/Kinds.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Parser/Kinds.js_o )
+
+src/Language/PureScript/Parser/Kinds.hs:23:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[39 of 77] Compiling Language.PureScript.Parser.Types ( src/Language/PureScript/Parser/Types.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Parser/Types.js_o )
+[40 of 77] Compiling Language.PureScript.Pretty.Common ( src/Language/PureScript/Pretty/Common.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Pretty/Common.js_o )
+[41 of 77] Compiling Language.PureScript.Pretty.Kinds ( src/Language/PureScript/Pretty/Kinds.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Pretty/Kinds.js_o )
+[42 of 77] Compiling Language.PureScript.Pretty.Types ( src/Language/PureScript/Pretty/Types.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Pretty/Types.js_o )
+[43 of 77] Compiling Language.PureScript.Pretty.JS ( src/Language/PureScript/Pretty/JS.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Pretty/JS.js_o )
+
+src/Language/PureScript/Pretty/JS.hs:23:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[44 of 77] Compiling Language.PureScript.AST ( src/Language/PureScript/AST.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/AST.js_o )
+[45 of 77] Compiling Language.PureScript.ModuleDependencies ( src/Language/PureScript/ModuleDependencies.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/ModuleDependencies.js_o )
+[46 of 77] Compiling Language.PureScript.Parser.Declarations ( src/Language/PureScript/Parser/Declarations.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Parser/Declarations.js_o )
+[47 of 77] Compiling Language.PureScript.Parser ( src/Language/PureScript/Parser.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Parser.js_o )
+[48 of 77] Compiling Language.PureScript.Pretty.Values ( src/Language/PureScript/Pretty/Values.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Pretty/Values.js_o )
+
+src/Language/PureScript/Pretty/Values.hs:27:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[49 of 77] Compiling Language.PureScript.Pretty ( src/Language/PureScript/Pretty.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Pretty.js_o )
+[50 of 77] Compiling Language.PureScript.Errors ( src/Language/PureScript/Errors.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Errors.js_o )
+
+src/Language/PureScript/Errors.hs:24:1: Warning:
+    The import of ‘foldMap’ from module ‘Data.Foldable’ is redundant
+
+src/Language/PureScript/Errors.hs:28:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[51 of 77] Compiling Language.PureScript.TypeChecker.Monad ( src/Language/PureScript/TypeChecker/Monad.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/TypeChecker/Monad.js_o )
+
+src/Language/PureScript/TypeChecker/Monad.hs:24:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[52 of 77] Compiling Language.PureScript.TypeChecker.Kinds ( src/Language/PureScript/TypeChecker/Kinds.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/TypeChecker/Kinds.js_o )
+
+src/Language/PureScript/TypeChecker/Kinds.hs:32:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[53 of 77] Compiling Language.PureScript.TypeChecker.Synonyms ( src/Language/PureScript/TypeChecker/Synonyms.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/TypeChecker/Synonyms.js_o )
+
+src/Language/PureScript/TypeChecker/Synonyms.hs:30:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[54 of 77] Compiling Language.PureScript.CodeGen.Externs ( src/Language/PureScript/CodeGen/Externs.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CodeGen/Externs.js_o )
+[55 of 77] Compiling Language.PureScript.Sugar.BindingGroups ( src/Language/PureScript/Sugar/BindingGroups.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Sugar/BindingGroups.js_o )
+
+src/Language/PureScript/Sugar/BindingGroups.hs:29:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[56 of 77] Compiling Language.PureScript.Sugar.CaseDeclarations ( src/Language/PureScript/Sugar/CaseDeclarations.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Sugar/CaseDeclarations.js_o )
+
+src/Language/PureScript/Sugar/CaseDeclarations.hs:27:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[57 of 77] Compiling Language.PureScript.Sugar.TypeClasses ( src/Language/PureScript/Sugar/TypeClasses.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Sugar/TypeClasses.js_o )
+
+src/Language/PureScript/Sugar/TypeClasses.hs:36:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[58 of 77] Compiling Language.PureScript.CoreFn.Desugar ( src/Language/PureScript/CoreFn/Desugar.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CoreFn/Desugar.js_o )
+[59 of 77] Compiling Language.PureScript.CoreFn ( src/Language/PureScript/CoreFn.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CoreFn.js_o )
+[60 of 77] Compiling Language.PureScript.DeadCodeElimination ( src/Language/PureScript/DeadCodeElimination.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/DeadCodeElimination.js_o )
+[61 of 77] Compiling Language.PureScript.Renamer ( src/Language/PureScript/Renamer.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Renamer.js_o )
+
+src/Language/PureScript/Renamer.hs:19:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[62 of 77] Compiling Language.PureScript.CodeGen.JS ( src/Language/PureScript/CodeGen/JS.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CodeGen/JS.js_o )
+
+src/Language/PureScript/CodeGen/JS.hs:31:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[63 of 77] Compiling Language.PureScript.CodeGen ( src/Language/PureScript/CodeGen.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/CodeGen.js_o )
+[64 of 77] Compiling Language.PureScript.Sugar.DoNotation ( src/Language/PureScript/Sugar/DoNotation.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Sugar/DoNotation.js_o )
+
+src/Language/PureScript/Sugar/DoNotation.hs:30:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[65 of 77] Compiling Language.PureScript.Sugar.Names ( src/Language/PureScript/Sugar/Names.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Sugar/Names.js_o )
+
+src/Language/PureScript/Sugar/Names.hs:25:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[66 of 77] Compiling Language.PureScript.Sugar.ObjectWildcards ( src/Language/PureScript/Sugar/ObjectWildcards.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Sugar/ObjectWildcards.js_o )
+
+src/Language/PureScript/Sugar/ObjectWildcards.hs:22:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[67 of 77] Compiling Language.PureScript.Sugar.Operators ( src/Language/PureScript/Sugar/Operators.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Sugar/Operators.js_o )
+
+src/Language/PureScript/Sugar/Operators.hs:34:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[68 of 77] Compiling Language.PureScript.Sugar.TypeDeclarations ( src/Language/PureScript/Sugar/TypeDeclarations.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Sugar/TypeDeclarations.js_o )
+
+src/Language/PureScript/Sugar/TypeDeclarations.hs:24:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[69 of 77] Compiling Language.PureScript.Sugar ( src/Language/PureScript/Sugar.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/Sugar.js_o )
+
+src/Language/PureScript/Sugar.hs:22:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[70 of 77] Compiling Language.PureScript.TypeChecker.Rows ( src/Language/PureScript/TypeChecker/Rows.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/TypeChecker/Rows.js_o )
+[71 of 77] Compiling Language.PureScript.TypeChecker.Skolems ( src/Language/PureScript/TypeChecker/Skolems.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/TypeChecker/Skolems.js_o )
+
+src/Language/PureScript/TypeChecker/Skolems.hs:28:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[72 of 77] Compiling Language.PureScript.TypeChecker.Unify ( src/Language/PureScript/TypeChecker/Unify.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/TypeChecker/Unify.js_o )
+[73 of 77] Compiling Language.PureScript.TypeChecker.Entailment ( src/Language/PureScript/TypeChecker/Entailment.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/TypeChecker/Entailment.js_o )
+
+src/Language/PureScript/TypeChecker/Entailment.hs:23:1: Warning:
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+
+src/Language/PureScript/TypeChecker/Entailment.hs:26:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[74 of 77] Compiling Language.PureScript.TypeChecker.Subsumption ( src/Language/PureScript/TypeChecker/Subsumption.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/TypeChecker/Subsumption.js_o )
+[75 of 77] Compiling Language.PureScript.TypeChecker.Types ( src/Language/PureScript/TypeChecker/Types.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/TypeChecker/Types.js_o )
+
+src/Language/PureScript/TypeChecker/Types.hs:43:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[76 of 77] Compiling Language.PureScript.TypeChecker ( src/Language/PureScript/TypeChecker.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript/TypeChecker.js_o )
+[77 of 77] Compiling Language.PureScript ( src/Language/PureScript.hs, dist/dist-sandbox-4d9c445/build/Language/PureScript.js_o )
+Linking Template Haskell (Control.Monad.Supply,Control.Monad.Supply.Class,Control.Monad.Unify,Language.PureScript.AST,Language.PureScript.AST.Binders,Language.PureScript.AST.Declarations,Language.PureScript.AST.Operators,Language.PureScript.AST.SourcePos,Language.PureScript.AST.Traversals,Language.PureScript.CodeGen,Language.PureScript.CodeGen.Externs,Language.PureScript.CodeGen.JS,Language.PureScript.CodeGen.JS.AST,Language.PureScript.CodeGen.JS.Common,Language.PureScript.CodeGen.JS.Optimizer,Language.PureScript.CodeGen.JS.Optimizer.Blocks,Language.PureScript.CodeGen.JS.Optimizer.Common,Language.PureScript.CodeGen.JS.Optimizer.Inliner,Language.PureScript.CodeGen.JS.Optimizer.MagicDo,Language.PureScript.CodeGen.JS.Optimizer.TCO,Language.PureScript.CodeGen.JS.Optimizer.Unused,Language.PureScript.Comments,Language.PureScript.Constants,Language.PureScript.CoreFn,Language.PureScript.CoreFn.Ann,Language.PureScript.CoreFn.Binders,Language.PureScript.CoreFn.Desugar,Language.PureScript.CoreFn.Expr,Language.PureScript.CoreFn.Literals,Language.PureScript.CoreFn.Meta,Language.PureScript.CoreFn.Module,Language.PureScript.CoreFn.Traversals,Language.PureScript.DeadCodeElimination,Language.PureScript.Environment,Language.PureScript.Errors,Language.PureScript.Kinds,Language.PureScript.ModuleDependencies,Language.PureScript.Names,Language.PureScript.Options,Language.PureScript.Parser,Language.PureScript.Parser.Common,Language.PureScript.Parser.Declarations,Language.PureScript.Parser.Kinds,Language.PureScript.Parser.Lexer,Language.PureScript.Parser.State,Language.PureScript.Parser.Types,Language.PureScript.Pretty,Language.PureScript.Pretty.Common,Language.PureScript.Pretty.JS,Language.PureScript.Pretty.Kinds,Language.PureScript.Pretty.Types,Language.PureScript.Pretty.Values,Language.PureScript.Renamer,Language.PureScript.Sugar,Language.PureScript.Sugar.BindingGroups,Language.PureScript.Sugar.CaseDeclarations,Language.PureScript.Sugar.DoNotation,Language.PureScript.Sugar.Names,Language.PureScript.Sugar.ObjectWildcards,Language.PureScript.Sugar.Operators,Language.PureScript.Sugar.TypeClasses,Language.PureScript.Sugar.TypeDeclarations,Language.PureScript.Traversals,Language.PureScript.TypeChecker,Language.PureScript.TypeChecker.Entailment,Language.PureScript.TypeChecker.Kinds,Language.PureScript.TypeChecker.Monad,Language.PureScript.TypeChecker.Rows,Language.PureScript.TypeChecker.Skolems,Language.PureScript.TypeChecker.Subsumption,Language.PureScript.TypeChecker.Synonyms,Language.PureScript.TypeChecker.Types,Language.PureScript.TypeChecker.Unify,Language.PureScript.TypeClassDictionaries,Language.PureScript.Types,Paths_purescript,ThRunner1)
+
+src/Language/PureScript.hs:44:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Language/PureScript.hs:92:81: Warning:
+    Unticked promoted constructor: ‘Compile’.
+    Use ‘'Compile’ instead of ‘Compile’.
+
+src/Language/PureScript.hs:96:82: Warning:
+    Unticked promoted constructor: ‘Compile’.
+    Use ‘'Compile’ instead of ‘Compile’.
+
+src/Language/PureScript.hs:118:60: Warning:
+    Unticked promoted constructor: ‘Compile’.
+    Use ‘'Compile’ instead of ‘Compile’.
+
+src/Language/PureScript.hs:132:31: Warning:
+    Unticked promoted constructor: ‘Make’.
+    Use ‘'Make’ instead of ‘Make’.
+In-place registering purescript-0.6.9.5...
+Preprocessing executable 'psc' for purescript-0.6.9.5...
+[1 of 2] Compiling Paths_purescript ( dist/dist-sandbox-4d9c445/build/autogen/Paths_purescript.hs, dist/dist-sandbox-4d9c445/build/psc/psc-tmp/Paths_purescript.js_o )
+[2 of 2] Compiling Main             ( psc/Main.hs, dist/dist-sandbox-4d9c445/build/psc/psc-tmp/Main.js_o )
+
+psc/Main.hs:38:31: Warning:
+    Unticked promoted constructor: ‘P.Compile’.
+    Use ‘'P.Compile’ instead of ‘P.Compile’.
+
+psc/Main.hs:176:30: Warning:
+    Unticked promoted constructor: ‘P.Compile’.
+    Use ‘'P.Compile’ instead of ‘P.Compile’.
+Linking dist/dist-sandbox-4d9c445/build/psc/psc.jsexe (Main,Paths_purescript)
+Preprocessing executable 'psc-make' for purescript-0.6.9.5...
+[1 of 2] Compiling Paths_purescript ( dist/dist-sandbox-4d9c445/build/autogen/Paths_purescript.hs, dist/dist-sandbox-4d9c445/build/psc-make/psc-make-tmp/Paths_purescript.js_o )
+[2 of 2] Compiling Main             ( psc-make/Main.hs, dist/dist-sandbox-4d9c445/build/psc-make/psc-make-tmp/Main.js_o )
+
+psc-make/Main.hs:24:1: Warning:
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+
+psc-make/Main.hs:41:32: Warning:
+    Unticked promoted constructor: ‘P.Make’.
+    Use ‘'P.Make’ instead of ‘P.Make’.
+
+psc-make/Main.hs:55:54: Warning:
+    Unticked promoted constructor: ‘P.Make’.
+    Use ‘'P.Make’ instead of ‘P.Make’.
+
+psc-make/Main.hs:56:93: Warning:
+    Unticked promoted constructor: ‘P.Make’.
+    Use ‘'P.Make’ instead of ‘P.Make’.
+
+psc-make/Main.hs:58:22: Warning:
+    Unticked promoted constructor: ‘P.Make’.
+    Use ‘'P.Make’ instead of ‘P.Make’.
+
+psc-make/Main.hs:152:30: Warning:
+    Unticked promoted constructor: ‘P.Make’.
+    Use ‘'P.Make’ instead of ‘P.Make’.
+Linking dist/dist-sandbox-4d9c445/build/psc-make/psc-make.jsexe (Main,Paths_purescript)
+Preprocessing executable 'psci' for purescript-0.6.9.5...
+[1 of 5] Compiling Directive        ( psci/Directive.hs, dist/dist-sandbox-4d9c445/build/psci/psci-tmp/Directive.js_o )
+[2 of 5] Compiling Commands         ( psci/Commands.hs, dist/dist-sandbox-4d9c445/build/psci/psci-tmp/Commands.js_o )
+[3 of 5] Compiling Parser           ( psci/Parser.hs, dist/dist-sandbox-4d9c445/build/psci/psci-tmp/Parser.js_o )
+
+psci/Parser.hs:27:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[4 of 5] Compiling Paths_purescript ( dist/dist-sandbox-4d9c445/build/autogen/Paths_purescript.hs, dist/dist-sandbox-4d9c445/build/psci/psci-tmp/Paths_purescript.js_o )
+[5 of 5] Compiling Main             ( psci/Main.hs, dist/dist-sandbox-4d9c445/build/psci/psci-tmp/Main.js_o )
+
+psci/Main.hs:27:1: Warning:
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+
+psci/Main.hs:339:22: Warning:
+    Unticked promoted constructor: ‘P.Make’.
+    Use ‘'P.Make’ instead of ‘P.Make’.
+
+psci/Main.hs:350:54: Warning:
+    Unticked promoted constructor: ‘P.Make’.
+    Use ‘'P.Make’ instead of ‘P.Make’.
+
+psci/Main.hs:351:84: Warning:
+    Unticked promoted constructor: ‘P.Make’.
+    Use ‘'P.Make’ instead of ‘P.Make’.
+Linking dist/dist-sandbox-4d9c445/build/psci/psci.jsexe (Commands,Directive,Main,Parser,Paths_purescript)
+Preprocessing executable 'psc-docs' for purescript-0.6.9.5...
+[1 of 5] Compiling Tags             ( psc-docs/Tags.hs, dist/dist-sandbox-4d9c445/build/psc-docs/psc-docs-tmp/Tags.js_o )
+[2 of 5] Compiling Ctags            ( psc-docs/Ctags.hs, dist/dist-sandbox-4d9c445/build/psc-docs/psc-docs-tmp/Ctags.js_o )
+[3 of 5] Compiling Etags            ( psc-docs/Etags.hs, dist/dist-sandbox-4d9c445/build/psc-docs/psc-docs-tmp/Etags.js_o )
+[4 of 5] Compiling Paths_purescript ( dist/dist-sandbox-4d9c445/build/autogen/Paths_purescript.hs, dist/dist-sandbox-4d9c445/build/psc-docs/psc-docs-tmp/Paths_purescript.js_o )
+[5 of 5] Compiling Main             ( psc-docs/Main.hs, dist/dist-sandbox-4d9c445/build/psc-docs/psc-docs-tmp/Main.js_o )
+Linking dist/dist-sandbox-4d9c445/build/psc-docs/psc-docs.jsexe (Ctags,Etags,Main,Paths_purescript,Tags)
+Preprocessing executable 'psc-hierarchy' for purescript-0.6.9.5...
+[1 of 2] Compiling Paths_purescript ( dist/dist-sandbox-4d9c445/build/autogen/Paths_purescript.hs, dist/dist-sandbox-4d9c445/build/psc-hierarchy/psc-hierarchy-tmp/Paths_purescript.js_o )
+[2 of 2] Compiling Main             ( hierarchy/Main.hs, dist/dist-sandbox-4d9c445/build/psc-hierarchy/psc-hierarchy-tmp/Main.js_o )
+Linking dist/dist-sandbox-4d9c445/build/psc-hierarchy/psc-hierarchy.jsexe (Main,Paths_purescript)
+Creating package registration file:
+/tmp/pkgConf-purescript-0.6.9114161612484353895.5
+Installing library in
+/home/joey/ghcjs-examples/try-purescript/.cabal-sandbox/lib/x86_64-linux-ghcjs-0.2.0-ghc7_10_2/purescript-0.6.9.5-4NKh8oghNdZDBFiS9sr45N
+Installing executable(s) in
+/home/joey/ghcjs-examples/try-purescript/.cabal-sandbox/bin
+Registering purescript-0.6.9.5...

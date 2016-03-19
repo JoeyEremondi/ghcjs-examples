@@ -1,0 +1,164 @@
+code size summary per package:
+
+ansit_1XCqSmZwCE8FzNQ2kObcnJ:8080
+ansiw_82DoKOSX6cuH1AzJq1wc2v:47369
+base:                    613763
+ghc-prim:                16227
+ghcjs_B7KLFJ07Vte3zPHAgRIBTb:10233
+integer-gmp:             24292
+main:                    108445
+optpa_9FuqPcvDEEZ21uZ2Sa47Hv:258025
+parse_2IIEIBfTu54BzyNlmha4Z7:564207
+patte_5omDbR7yNomIgdsKusFaFZ:18168
+pures_4NKh8oghNdZDBFiS9sr45N:1102024
+trans_KzbnBSIEqPI2eU1Inn4mzm:9086
+
+
+code size per module:
+
+ansit_1XCqSmZwCE8FzNQ2kObcnJ
+    System.Console.ANSI.Common:         1809
+    System.Console.ANSI.Unix:           6271
+
+ansiw_82DoKOSX6cuH1AzJq1wc2v
+    Text.PrettyPrint.ANSI.Leijen:       47369
+
+base
+    Control.Exception.Base:             6010
+    Data.Char:                          1284
+    Data.Either:                        1018
+    Data.Functor.Identity:              1107
+    Data.Maybe:                         722
+    Data.OldList:                       17395
+    Data.Tuple:                         334
+    Data.Typeable:                      885
+    Data.Typeable.Internal:             1418
+    Data.Version:                       2052
+    Foreign.C.Error:                    9812
+    Foreign.Marshal.Alloc:              375
+    Foreign.Marshal.Array:              2038
+    Foreign.Storable:                   5108
+    GHC.Arr:                            3667
+    GHC.Base:                           10202
+    GHC.Char:                           718
+    GHC.Conc.Sync:                      4451
+    GHC.Enum:                           189
+    GHC.Err:                            218
+    GHC.Exception:                      6359
+    GHC.Float:                          56478
+    GHC.Foreign:                        12136
+    GHC.ForeignPtr:                     1501
+    GHC.IO:                             4213
+    GHC.IO.Buffer:                      1276
+    GHC.IO.BufferedIO:                  1066
+    GHC.IO.Device:                      1486
+    GHC.IO.Encoding:                    1030
+    GHC.IO.Encoding.Failure:            724
+    GHC.IO.Encoding.Latin1:             3684
+    GHC.IO.Encoding.Types:              1032
+    GHC.IO.Encoding.UTF8:               61149
+    GHC.IO.Exception:                   23401
+    GHC.IO.FD:                          53248
+    GHC.IO.Handle:                      416
+    GHC.IO.Handle.FD:                   14282
+    GHC.IO.Handle.Internals:            65705
+    GHC.IO.Handle.Text:                 31693
+    GHC.IO.Handle.Types:                5007
+    GHC.IO.IOMode:                      80
+    GHC.Int:                            802
+    GHC.List:                           11692
+    GHC.MVar:                           188
+    GHC.Num:                            246
+    GHC.Ptr:                            188
+    GHC.Read:                           15136
+    GHC.Real:                           7452
+    GHC.ST:                             186
+    GHC.STRef:                          194
+    GHC.Show:                           27101
+    GHC.Storable:                       2369
+    GHC.TopHandler:                     10349
+    GHC.Unicode:                        3375
+    GHC.Word:                           350
+    System.Environment:                 6269
+    System.Exit:                        1347
+    System.Posix.Internals:             16119
+    Text.ParserCombinators.ReadP:       25501
+    Text.ParserCombinators.ReadPrec:    147
+    Text.Read.Lex:                      69783
+
+ghc-prim
+    GHC.CString:                        4515
+    GHC.Classes:                        9027
+    GHC.IntWord64:                      304
+    GHC.Tuple:                          1080
+    GHC.Types:                          1301
+
+ghcjs_B7KLFJ07Vte3zPHAgRIBTb
+    GHCJS.Prim:                         5818
+    GHCJS.Prim.Internal:                4415
+
+integer-gmp
+    GHC.Integer.GMP.Prim:               346
+    GHC.Integer.Type:                   23946
+
+main
+    Ctags:                              2967
+    Etags:                              3944
+    Main:                               89334
+    Paths_purescript:                   6193
+    Tags:                               6007
+
+optpa_9FuqPcvDEEZ21uZ2Sa47Hv
+    Options.Applicative.BashCompletion: 16489
+    Options.Applicative.Builder:        9757
+    Options.Applicative.Builder.Internal:4311
+    Options.Applicative.Common:         85614
+    Options.Applicative.Extra:          20110
+    Options.Applicative.Help.Chunk:     6578
+    Options.Applicative.Help.Core:      20135
+    Options.Applicative.Help.Types:     6610
+    Options.Applicative.Internal:       64652
+    Options.Applicative.Types:          23769
+
+parse_2IIEIBfTu54BzyNlmha4Z7
+    Text.Parsec.Char:                   20792
+    Text.Parsec.Combinator:             46800
+    Text.Parsec.Error:                  30373
+    Text.Parsec.Expr:                   71267
+    Text.Parsec.Pos:                    5239
+    Text.Parsec.Prim:                   30912
+    Text.Parsec.Token:                  358824
+
+patte_5omDbR7yNomIgdsKusFaFZ
+    Control.PatternArrows:              18168
+
+pures_4NKh8oghNdZDBFiS9sr45N
+    Language.PureScript.AST.Binders:    3818
+    Language.PureScript.AST.Declarations:30478
+    Language.PureScript.AST.Operators:  733
+    Language.PureScript.AST.SourcePos:  745
+    Language.PureScript.CodeGen.JS.AST: 356
+    Language.PureScript.Comments:       703
+    Language.PureScript.Constants:      95
+    Language.PureScript.Environment:    1886
+    Language.PureScript.Kinds:          2953
+    Language.PureScript.Names:          7426
+    Language.PureScript.Parser.Common:  40068
+    Language.PureScript.Parser.Declarations:624128
+    Language.PureScript.Parser.Kinds:   10547
+    Language.PureScript.Parser.Lexer:   205452
+    Language.PureScript.Parser.State:   362
+    Language.PureScript.Parser.Types:   91588
+    Language.PureScript.Pretty.Common:  1731
+    Language.PureScript.Pretty.Kinds:   4369
+    Language.PureScript.Pretty.Types:   28752
+    Language.PureScript.Types:          45834
+
+trans_KzbnBSIEqPI2eU1Inn4mzm
+    Control.Monad.Trans.State.Lazy:     8860
+    Control.Monad.Trans.Writer.Lazy:    226
+
+
+
+packed metadata: 495314
+

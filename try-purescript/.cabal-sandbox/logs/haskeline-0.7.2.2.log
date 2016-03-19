@@ -1,0 +1,115 @@
+[1 of 1] Compiling Main             ( /tmp/cabal-tmp-24803/haskeline-0.7.2.2/dist/dist-sandbox-4d9c445/setup/setup.hs, /tmp/cabal-tmp-24803/haskeline-0.7.2.2/dist/dist-sandbox-4d9c445/setup/Main.js_o )
+Linking /tmp/cabal-tmp-24803/haskeline-0.7.2.2/dist/dist-sandbox-4d9c445/setup/setup.jsexe (Main)
+Configuring haskeline-0.7.2.2...
+Building haskeline-0.7.2.2...
+Preprocessing library haskeline-0.7.2.2...
+
+on the commandline: Warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+[ 1 of 27] Compiling System.Console.Haskeline.Recover ( System/Console/Haskeline/Recover.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Recover.js_o )
+[ 2 of 27] Compiling System.Console.Haskeline.Directory ( dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Directory.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Directory.js_o )
+[ 3 of 27] Compiling System.Console.Haskeline.Key ( System/Console/Haskeline/Key.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Key.js_o )
+[ 4 of 27] Compiling System.Console.Haskeline.History ( System/Console/Haskeline/History.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/History.js_o )
+[ 5 of 27] Compiling System.Console.Haskeline.LineState ( System/Console/Haskeline/LineState.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/LineState.js_o )
+[ 6 of 27] Compiling System.Console.Haskeline.Command ( System/Console/Haskeline/Command.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Command.js_o )
+
+System/Console/Haskeline/Command.hs:32:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 7 of 27] Compiling System.Console.Haskeline.Backend.WCWidth ( System/Console/Haskeline/Backend/WCWidth.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Backend/WCWidth.js_o )
+[ 8 of 27] Compiling System.Console.Haskeline.MonadException ( System/Console/Haskeline/MonadException.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/MonadException.js_o )
+
+System/Console/Haskeline/MonadException.hs:38:1: Warning:
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+
+System/Console/Haskeline/MonadException.hs:43:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+System/Console/Haskeline/MonadException.hs:161:29: Warning:
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+System/Console/Haskeline/MonadException.hs:161:57: Warning:
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+System/Console/Haskeline/MonadException.hs:162:19: Warning:
+    In the use of data constructor ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+System/Console/Haskeline/MonadException.hs:163:40: Warning:
+    In the use of data constructor ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+System/Console/Haskeline/MonadException.hs:163:55: Warning:
+    In the use of ‘runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+System/Console/Haskeline/MonadException.hs:164:29: Warning:
+    In the use of ‘runErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+[ 9 of 27] Compiling System.Console.Haskeline.Prefs ( System/Console/Haskeline/Prefs.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Prefs.js_o )
+[10 of 27] Compiling System.Console.Haskeline.Monads ( System/Console/Haskeline/Monads.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Monads.js_o )
+
+System/Console/Haskeline/Monads.hs:24:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[11 of 27] Compiling System.Console.Haskeline.Command.Undo ( System/Console/Haskeline/Command/Undo.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Command/Undo.js_o )
+[12 of 27] Compiling System.Console.Haskeline.Command.History ( System/Console/Haskeline/Command/History.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Command/History.js_o )
+[13 of 27] Compiling System.Console.Haskeline.Command.KillRing ( System/Console/Haskeline/Command/KillRing.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Command/KillRing.js_o )
+[14 of 27] Compiling System.Console.Haskeline.Completion ( System/Console/Haskeline/Completion.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Completion.js_o )
+[15 of 27] Compiling System.Console.Haskeline.Term ( System/Console/Haskeline/Term.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Term.js_o )
+
+System/Console/Haskeline/Term.hs:107:16: Warning:
+    In the use of ‘isEmptyChan’
+    (imported from Control.Concurrent, but defined in Control.Concurrent.Chan):
+    Deprecated: "if you need this operation, use Control.Concurrent.STM.TChan instead.  See <http://ghc.haskell.org/trac/ghc/ticket/4154> for details"
+[16 of 27] Compiling System.Console.Haskeline.RunCommand ( System/Console/Haskeline/RunCommand.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/RunCommand.js_o )
+[17 of 27] Compiling System.Console.Haskeline.Backend.Posix.Encoder ( System/Console/Haskeline/Backend/Posix/Encoder.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Backend/Posix/Encoder.js_o )
+[18 of 27] Compiling System.Console.Haskeline.Backend.Posix ( dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Backend/Posix.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Backend/Posix.js_o )
+[19 of 27] Compiling System.Console.Haskeline.Backend.Terminfo ( System/Console/Haskeline/Backend/Terminfo.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Backend/Terminfo.js_o )
+
+System/Console/Haskeline/Backend/Terminfo.hs:8:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[20 of 27] Compiling System.Console.Haskeline.Backend.DumbTerm ( System/Console/Haskeline/Backend/DumbTerm.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Backend/DumbTerm.js_o )
+
+System/Console/Haskeline/Backend/DumbTerm.hs:11:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[21 of 27] Compiling System.Console.Haskeline.Backend ( System/Console/Haskeline/Backend.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Backend.js_o )
+[22 of 27] Compiling System.Console.Haskeline.InputT ( System/Console/Haskeline/InputT.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/InputT.js_o )
+
+System/Console/Haskeline/InputT.hs:16:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+System/Console/Haskeline/InputT.hs:17:1: Warning:
+    The import of ‘Control.Monad’ is redundant
+      except perhaps to import instances from ‘Control.Monad’
+    To import instances alone, use: import Control.Monad()
+[23 of 27] Compiling System.Console.Haskeline.Command.Completion ( System/Console/Haskeline/Command/Completion.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Command/Completion.js_o )
+[24 of 27] Compiling System.Console.Haskeline.Vi ( System/Console/Haskeline/Vi.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Vi.js_o )
+[25 of 27] Compiling System.Console.Haskeline.Emacs ( System/Console/Haskeline/Emacs.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/Emacs.js_o )
+[26 of 27] Compiling System.Console.Haskeline ( System/Console/Haskeline.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline.js_o )
+[27 of 27] Compiling System.Console.Haskeline.IO ( System/Console/Haskeline/IO.hs, dist/dist-sandbox-4d9c445/build/System/Console/Haskeline/IO.js_o )
+In-place registering haskeline-0.7.2.2...
+Creating package registration file:
+/tmp/pkgConf-haskeline-0.7.25726603361159126505.2
+Installing library in
+/home/joey/ghcjs-examples/try-purescript/.cabal-sandbox/lib/x86_64-linux-ghcjs-0.2.0-ghc7_10_2/haskeline-0.7.2.2-3NYFoevONI6EcyvYP1WyEP
+Registering haskeline-0.7.2.2...

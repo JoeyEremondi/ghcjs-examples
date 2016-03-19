@@ -1,0 +1,132 @@
+Configuring unbound-generics-0.3...
+Building unbound-generics-0.3...
+Preprocessing library unbound-generics-0.3...
+[ 1 of 18] Compiling Unbound.Generics.LocallyNameless.Internal.Lens ( src/Unbound/Generics/LocallyNameless/Internal/Lens.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Internal/Lens.js_o )
+[ 2 of 18] Compiling Unbound.Generics.LocallyNameless.Internal.Fold ( src/Unbound/Generics/LocallyNameless/Internal/Fold.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Internal/Fold.js_o )
+[ 3 of 18] Compiling Unbound.Generics.LocallyNameless.Internal.Iso ( src/Unbound/Generics/LocallyNameless/Internal/Iso.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Internal/Iso.js_o )
+[ 4 of 18] Compiling Unbound.Generics.PermM ( src/Unbound/Generics/PermM.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/PermM.js_o )
+[ 5 of 18] Compiling Unbound.Generics.LocallyNameless.Name ( src/Unbound/Generics/LocallyNameless/Name.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Name.js_o )
+[ 6 of 18] Compiling Unbound.Generics.LocallyNameless.Fresh ( src/Unbound/Generics/LocallyNameless/Fresh.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Fresh.js_o )
+
+src/Unbound/Generics/LocallyNameless/Fresh.hs:17:1: Warning:
+    The import of ‘Applicative’
+    from module ‘Control.Applicative’ is redundant
+
+src/Unbound/Generics/LocallyNameless/Fresh.hs:24:1: Warning:
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+
+src/Unbound/Generics/LocallyNameless/Fresh.hs:38:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Unbound/Generics/LocallyNameless/Fresh.hs:98:11: Warning:
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Unbound/Generics/LocallyNameless/Fresh.hs:98:39: Warning:
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+[ 7 of 18] Compiling Unbound.Generics.LocallyNameless.LFresh ( src/Unbound/Generics/LocallyNameless/LFresh.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/LFresh.js_o )
+
+src/Unbound/Generics/LocallyNameless/LFresh.hs:63:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Unbound/Generics/LocallyNameless/LFresh.hs:68:1: Warning:
+    The import of ‘Applicative’
+    from module ‘Control.Applicative’ is redundant
+
+src/Unbound/Generics/LocallyNameless/LFresh.hs:71:1: Warning:
+    Module ‘Control.Monad.Trans.Error’ is deprecated:
+      Use Control.Monad.Trans.Except instead
+
+src/Unbound/Generics/LocallyNameless/LFresh.hs:143:11: Warning:
+    In the use of type constructor or class ‘Error’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Unbound/Generics/LocallyNameless/LFresh.hs:143:41: Warning:
+    In the use of type constructor or class ‘ErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+
+src/Unbound/Generics/LocallyNameless/LFresh.hs:145:12: Warning:
+    In the use of ‘mapErrorT’
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+[ 8 of 18] Compiling Unbound.Generics.LocallyNameless.Alpha ( src/Unbound/Generics/LocallyNameless/Alpha.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Alpha.js_o )
+
+src/Unbound/Generics/LocallyNameless/Alpha.hs:54:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Unbound/Generics/LocallyNameless/Alpha.hs:59:1: Warning:
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+
+src/Unbound/Generics/LocallyNameless/Alpha.hs:61:1: Warning:
+    The import of ‘Monoid’ from module ‘Data.Monoid’ is redundant
+[ 9 of 18] Compiling Unbound.Generics.LocallyNameless.Bind ( src/Unbound/Generics/LocallyNameless/Bind.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Bind.js_o )
+
+src/Unbound/Generics/LocallyNameless/Bind.hs:20:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[10 of 18] Compiling Unbound.Generics.LocallyNameless.Embed ( src/Unbound/Generics/LocallyNameless/Embed.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Embed.js_o )
+
+src/Unbound/Generics/LocallyNameless/Embed.hs:13:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Unbound/Generics/LocallyNameless/Embed.hs:15:1: Warning:
+    The import of ‘mempty’ from module ‘Data.Monoid’ is redundant
+[11 of 18] Compiling Unbound.Generics.LocallyNameless.Shift ( src/Unbound/Generics/LocallyNameless/Shift.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Shift.js_o )
+
+src/Unbound/Generics/LocallyNameless/Shift.hs:14:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Unbound/Generics/LocallyNameless/Shift.hs:16:1: Warning:
+    The import of ‘Monoid’ from module ‘Data.Monoid’ is redundant
+[12 of 18] Compiling Unbound.Generics.LocallyNameless.Rebind ( src/Unbound/Generics/LocallyNameless/Rebind.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Rebind.js_o )
+
+src/Unbound/Generics/LocallyNameless/Rebind.hs:15:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[13 of 18] Compiling Unbound.Generics.LocallyNameless.Rec ( src/Unbound/Generics/LocallyNameless/Rec.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Rec.js_o )
+[14 of 18] Compiling Unbound.Generics.LocallyNameless.Operations ( src/Unbound/Generics/LocallyNameless/Operations.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Operations.js_o )
+
+src/Unbound/Generics/LocallyNameless/Operations.hs:45:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[15 of 18] Compiling Unbound.Generics.LocallyNameless.Subst ( src/Unbound/Generics/LocallyNameless/Subst.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Subst.js_o )
+[16 of 18] Compiling Unbound.Generics.LocallyNameless.Unsafe ( src/Unbound/Generics/LocallyNameless/Unsafe.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/Unsafe.js_o )
+[17 of 18] Compiling Unbound.Generics.LocallyNameless.TH ( src/Unbound/Generics/LocallyNameless/TH.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless/TH.js_o )
+
+src/Unbound/Generics/LocallyNameless/TH.hs:16:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Unbound/Generics/LocallyNameless/TH.hs:17:1: Warning:
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[18 of 18] Compiling Unbound.Generics.LocallyNameless ( src/Unbound/Generics/LocallyNameless.hs, dist/dist-sandbox-4d9c445/build/Unbound/Generics/LocallyNameless.js_o )
+In-place registering unbound-generics-0.3...
+Creating package registration file:
+/tmp/pkgConf-unbound-generics-0114161612484353895.3
+Installing library in
+/home/joey/ghcjs-examples/try-purescript/.cabal-sandbox/lib/x86_64-linux-ghcjs-0.2.0-ghc7_10_2/unbound-generics-0.3-0qoPFi24C6U8BOQrUnhlMl
+Registering unbound-generics-0.3...

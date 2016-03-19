@@ -1,0 +1,18 @@
+Configuring try-lpp-0.1.0.0...
+Building try-lpp-0.1.0.0...
+Preprocessing executable 'try-purescript' for try-lpp-0.1.0.0...
+[1 of 1] Compiling Main             ( Main.hs, dist/dist-sandbox-4d9c445/build/try-purescript/try-purescript-tmp/Main.js_o )
+Linking Template Haskell (ThRunner1)
+Linking Template Haskell (ThRunner2)
+Linking Template Haskell (ThRunner3)
+Linking Template Haskell (ThRunner4)
+Linking Template Haskell (ThRunner5)
+/home/joey/ghcjs-examples/try-purescript/.cabal-sandbox/lib/x86_64-linux-ghcjs-0.2.0-ghc7_10_2/lambda-pi-plus-0.1.0.0-CtKrek7jOfWINeXM4qSPth/Language/LambdaPiPlus/Internals.js_hi
+Declaration for parse1
+Unfolding of parse1:
+  Failed to load interface for ‘Main’
+  Perhaps you haven't installed the "js" libraries for package ‘lambda-pi-plus-0.1.0.0’?
+  Use -v to see a list of the files searched for.
+Linking dist/dist-sandbox-4d9c445/build/try-purescript/try-purescript.jsexe (Main)
+Installing executable(s) in
+/home/joey/ghcjs-examples/try-purescript/.cabal-sandbox/bin

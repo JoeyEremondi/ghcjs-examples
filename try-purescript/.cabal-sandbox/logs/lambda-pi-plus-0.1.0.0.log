@@ -1,0 +1,42 @@
+Configuring lambda-pi-plus-0.1.0.0...
+Building lambda-pi-plus-0.1.0.0...
+Preprocessing library lambda-pi-plus-0.1.0.0...
+[11 of 12] Compiling Language.LambdaPiPlus.Internals ( src/Language/LambdaPiPlus/Internals.hs, dist/dist-sandbox-4d9c445/build/Language/LambdaPiPlus/Internals.js_o )
+Linking Template Haskell (Common,Constraint,ConstraintBased,Main,PatternUnify.Check,PatternUnify.Context,PatternUnify.Kit,PatternUnify.Run,PatternUnify.Tm,PatternUnify.Unify,ThRunner1)
+
+src/Language/LambdaPiPlus/Internals.hs:13:1: Warning:
+    The import of ‘Text.Parsec.Pos’ is redundant
+      except perhaps to import instances from ‘Text.Parsec.Pos’
+    To import instances alone, use: import Text.Parsec.Pos()
+
+src/Language/LambdaPiPlus/Internals.hs:22:1: Warning:
+    The import of ‘Control.Monad’ is redundant
+      except perhaps to import instances from ‘Control.Monad’
+    To import instances alone, use: import Control.Monad()
+[12 of 12] Compiling Language.LambdaPiPlus ( src/Language/LambdaPiPlus.hs, dist/dist-sandbox-4d9c445/build/Language/LambdaPiPlus.js_o ) [TH]
+Linking Template Haskell (Common,Constraint,ConstraintBased,Language.LambdaPiPlus.Internals,Main,PatternUnify.Check,PatternUnify.Context,PatternUnify.Kit,PatternUnify.Run,PatternUnify.Tm,PatternUnify.Unify,ThRunner2)
+
+src/Language/LambdaPiPlus.hs:17:1: Warning:
+    The import of ‘Common’ is redundant
+      except perhaps to import instances from ‘Common’
+    To import instances alone, use: import Common()
+
+src/Language/LambdaPiPlus.hs:19:1: Warning:
+    The import of ‘Language.Haskell.TH.Lift’ is redundant
+      except perhaps to import instances from ‘Language.Haskell.TH.Lift’
+    To import instances alone, use: import Language.Haskell.TH.Lift()
+
+src/Language/LambdaPiPlus.hs:21:1: Warning:
+    The import of ‘PatternUnify.Tm’ is redundant
+      except perhaps to import instances from ‘PatternUnify.Tm’
+    To import instances alone, use: import PatternUnify.Tm()
+In-place registering lambda-pi-plus-0.1.0.0...
+Preprocessing executable 'lambda-pi-plus' for lambda-pi-plus-0.1.0.0...
+Linking dist/dist-sandbox-4d9c445/build/lambda-pi-plus/lambda-pi-plus.jsexe (Common,Constraint,ConstraintBased,Main,PatternUnify.Check,PatternUnify.Context,PatternUnify.Kit,PatternUnify.Run,PatternUnify.Tm,PatternUnify.Unify)
+Creating package registration file:
+/tmp/pkgConf-lambda-pi-plus-0.1.01804289383846930886.0
+Installing library in
+/home/joey/ghcjs-examples/try-purescript/.cabal-sandbox/lib/x86_64-linux-ghcjs-0.2.0-ghc7_10_2/lambda-pi-plus-0.1.0.0-CtKrek7jOfWINeXM4qSPth
+Installing executable(s) in
+/home/joey/ghcjs-examples/try-purescript/.cabal-sandbox/bin
+Registering lambda-pi-plus-0.1.0.0...

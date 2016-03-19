@@ -1,0 +1,92 @@
+Configuring parsec-3.1.9...
+Building parsec-3.1.9...
+Preprocessing library parsec-3.1.9...
+[ 1 of 25] Compiling Text.Parsec.Pos  ( Text/Parsec/Pos.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/Pos.js_o )
+[ 2 of 25] Compiling Text.Parsec.Error ( Text/Parsec/Error.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/Error.js_o )
+[ 3 of 25] Compiling Text.ParserCombinators.Parsec.Error ( Text/ParserCombinators/Parsec/Error.hs, dist/dist-sandbox-4d9c445/build/Text/ParserCombinators/Parsec/Error.js_o )
+[ 4 of 25] Compiling Text.Parsec.Prim ( Text/Parsec/Prim.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/Prim.js_o )
+[ 5 of 25] Compiling Text.Parsec.Combinator ( Text/Parsec/Combinator.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/Combinator.js_o )
+[ 6 of 25] Compiling Text.ParserCombinators.Parsec.Combinator ( Text/ParserCombinators/Parsec/Combinator.hs, dist/dist-sandbox-4d9c445/build/Text/ParserCombinators/Parsec/Combinator.js_o )
+[ 7 of 25] Compiling Text.Parsec.String ( Text/Parsec/String.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/String.js_o )
+[ 8 of 25] Compiling Text.Parsec.ByteString ( Text/Parsec/ByteString.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/ByteString.js_o )
+[ 9 of 25] Compiling Text.Parsec.ByteString.Lazy ( Text/Parsec/ByteString/Lazy.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/ByteString/Lazy.js_o )
+[10 of 25] Compiling Text.Parsec.Text ( Text/Parsec/Text.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/Text.js_o )
+[11 of 25] Compiling Text.Parsec.Text.Lazy ( Text/Parsec/Text/Lazy.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/Text/Lazy.js_o )
+[12 of 25] Compiling Text.Parsec.Expr ( Text/Parsec/Expr.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/Expr.js_o )
+[13 of 25] Compiling Text.ParserCombinators.Parsec.Prim ( Text/ParserCombinators/Parsec/Prim.hs, dist/dist-sandbox-4d9c445/build/Text/ParserCombinators/Parsec/Prim.js_o )
+[14 of 25] Compiling Text.ParserCombinators.Parsec.Pos ( Text/ParserCombinators/Parsec/Pos.hs, dist/dist-sandbox-4d9c445/build/Text/ParserCombinators/Parsec/Pos.js_o )
+[15 of 25] Compiling Text.Parsec.Char ( Text/Parsec/Char.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/Char.js_o )
+[16 of 25] Compiling Text.Parsec.Token ( Text/Parsec/Token.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/Token.js_o )
+[17 of 25] Compiling Text.ParserCombinators.Parsec.Token ( Text/ParserCombinators/Parsec/Token.hs, dist/dist-sandbox-4d9c445/build/Text/ParserCombinators/Parsec/Token.js_o )
+[18 of 25] Compiling Text.ParserCombinators.Parsec.Char ( Text/ParserCombinators/Parsec/Char.hs, dist/dist-sandbox-4d9c445/build/Text/ParserCombinators/Parsec/Char.js_o )
+[19 of 25] Compiling Text.ParserCombinators.Parsec ( Text/ParserCombinators/Parsec.hs, dist/dist-sandbox-4d9c445/build/Text/ParserCombinators/Parsec.js_o )
+[20 of 25] Compiling Text.ParserCombinators.Parsec.Expr ( Text/ParserCombinators/Parsec/Expr.hs, dist/dist-sandbox-4d9c445/build/Text/ParserCombinators/Parsec/Expr.js_o )
+[21 of 25] Compiling Text.Parsec      ( Text/Parsec.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec.js_o )
+[22 of 25] Compiling Text.Parsec.Language ( Text/Parsec/Language.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/Language.js_o )
+
+Text/Parsec/Language.hs:44:30: Warning: Tab character
+
+Text/Parsec/Language.hs:45:26: Warning: Tab character
+
+Text/Parsec/Language.hs:46:27: Warning: Tab character
+
+Text/Parsec/Language.hs:58:1: Warning: Tab character
+
+Text/Parsec/Language.hs:58:31: Warning: Tab character
+
+Text/Parsec/Language.hs:59:1: Warning: Tab character
+
+Text/Parsec/Language.hs:59:29: Warning: Tab character
+
+Text/Parsec/Language.hs:60:1: Warning: Tab character
+
+Text/Parsec/Language.hs:60:30: Warning: Tab character
+
+Text/Parsec/Language.hs:61:1: Warning: Tab character
+
+Text/Parsec/Language.hs:62:1: Warning: Tab character
+
+Text/Parsec/Language.hs:62:29: Warning: Tab character
+
+Text/Parsec/Language.hs:63:1: Warning: Tab character
+
+Text/Parsec/Language.hs:63:30: Warning: Tab character
+
+Text/Parsec/Language.hs:64:1: Warning: Tab character
+
+Text/Parsec/Language.hs:65:1: Warning: Tab character
+
+Text/Parsec/Language.hs:67:1: Warning: Tab character
+
+Text/Parsec/Language.hs:109:1: Warning: Tab character
+
+Text/Parsec/Language.hs:109:30: Warning: Tab character
+
+Text/Parsec/Language.hs:110:1: Warning: Tab character
+
+Text/Parsec/Language.hs:110:32: Warning: Tab character
+
+Text/Parsec/Language.hs:111:5: Warning: Tab character
+
+Text/Parsec/Language.hs:112:5: Warning: Tab character
+
+Text/Parsec/Language.hs:113:5: Warning: Tab character
+
+Text/Parsec/Language.hs:114:5: Warning: Tab character
+
+Text/Parsec/Language.hs:146:1: Warning: Tab character
+
+Text/Parsec/Language.hs:147:1: Warning: Tab character
+
+Text/Parsec/Language.hs:148:1: Warning: Tab character
+
+Text/Parsec/Language.hs:150:1: Warning: Tab character
+[23 of 25] Compiling Text.ParserCombinators.Parsec.Language ( Text/ParserCombinators/Parsec/Language.hs, dist/dist-sandbox-4d9c445/build/Text/ParserCombinators/Parsec/Language.js_o )
+[24 of 25] Compiling Text.Parsec.Perm ( Text/Parsec/Perm.hs, dist/dist-sandbox-4d9c445/build/Text/Parsec/Perm.js_o )
+[25 of 25] Compiling Text.ParserCombinators.Parsec.Perm ( Text/ParserCombinators/Parsec/Perm.hs, dist/dist-sandbox-4d9c445/build/Text/ParserCombinators/Parsec/Perm.js_o )
+In-place registering parsec-3.1.9...
+Creating package registration file:
+/tmp/pkgConf-parsec-3.113691330691125898167.9
+Installing library in
+/home/joey/ghcjs-examples/try-purescript/.cabal-sandbox/lib/x86_64-linux-ghcjs-0.2.0-ghc7_10_2/parsec-3.1.9-2IIEIBfTu54BzyNlmha4Z7
+Registering parsec-3.1.9...
