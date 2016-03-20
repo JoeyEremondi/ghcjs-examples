@@ -85,14 +85,13 @@ function TryPs(editor, res, res_text, run_btn, run_output, run_templ, prelude) {
 
   this.addErrorAt = function(ln, col, err) {
       this.result.className = "error";
-      //this.result_text.textContent = 'Goog'.link('http://google.com') + '\n' + err;
-      this.result_text.innerHTML +=
+      this.result_text.innerHTML = this.result_text.innerHTML +
         '<a href="#" onclick="tryps.setCursorPos('
         + ln + "," + col + ');">  '
         + ln.toString() + "," + col.toString()
         + " </a>"
         + "&#58; "
-        + err;
+        + err + "<br><br>";
   }
 
   this.reportTypeError = function(source) {

@@ -46,11 +46,11 @@ compileWorker mv unmask =
             forM_ errList addError
           Right parseResult ->
              case LPP.compile parseResult LPP.initialContext of
-                  Left errList            -> forM_ errList $ \(loc, err) -> do
+                  Left errList            -> do
                     [js_| tryps.clearError(); |]
-                    let errString = show err
-                    addError (loc, err)
-                    reportSource src
+                    forM_ errList $ \(loc, err) -> do
+                      addError (loc, err)
+                      reportSource src
                   Right (_, output) -> [js_| tryps.setResult(`output); |]
 
 abortCompilation :: ThreadId -> IO ()
