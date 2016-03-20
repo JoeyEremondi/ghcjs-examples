@@ -1,17 +1,17 @@
 code size summary per package:
 
-base:                    496797
+base:                    496648
 conta_5w3UY4chXx62LVUOUrXeRm:135249
 contr_3zFNzNW4TxBEjBku2BsNrs:881
 ghc-prim:                17163
 ghcjs_B7KLFJ07Vte3zPHAgRIBTb:10230
 integer-gmp:             26217
-main:                    4367667
-mtl_JY14bYun6zF5fM4QvBys8Y:2172
+main:                    4380403
+mtl_JY14bYun6zF5fM4QvBys8Y:2398
 parse_2IIEIBfTu54BzyNlmha4Z7:480002
 prett_7fhh973FxfDIAV4yIljzub:66063
-trans_KzbnBSIEqPI2eU1Inn4mzm:16702
-unbou_0qoPFi24C6U8BOQrUnhlMl:141728
+trans_KzbnBSIEqPI2eU1Inn4mzm:17076
+unbou_0qoPFi24C6U8BOQrUnhlMl:143893
 
 
 code size per module:
@@ -21,12 +21,12 @@ base
     Control.Exception.Base:             6617
     Control.Monad:                      690
     Data.Char:                          1284
-    Data.Either:                        1611
+    Data.Either:                        1113
     Data.Functor.Identity:              1107
     Data.Maybe:                         2108
     Data.Monoid:                        734
     Data.OldList:                       18426
-    Data.Tuple:                         167
+    Data.Tuple:                         334
     Data.Typeable:                      885
     Data.Typeable.Internal:             3369
     Debug.Trace:                        5117
@@ -35,7 +35,7 @@ base
     Foreign.Marshal.Array:              2038
     Foreign.Storable:                   12121
     GHC.Arr:                            3832
-    GHC.Base:                           9621
+    GHC.Base:                           9803
     GHC.Char:                           718
     GHC.Conc.Sync:                      4451
     GHC.Enum:                           7000
@@ -106,21 +106,21 @@ integer-gmp
     GHC.Integer.Type:                   25871
 
 main
-    Common:                             1110265
-    Constraint:                         299508
+    Common:                             1109465
+    Constraint:                         293388
     ConstraintBased:                    249508
     Main:                               6958
-    PatternUnify.Check:                 462796
-    PatternUnify.Context:               537591
+    PatternUnify.Check:                 461140
+    PatternUnify.Context:               543609
     PatternUnify.Kit:                   63975
-    PatternUnify.Run:                   34454
+    PatternUnify.Run:                   49814
     PatternUnify.Tm:                    1135524
-    PatternUnify.Unify:                 467088
+    PatternUnify.Unify:                 467022
 
 mtl_JY14bYun6zF5fM4QvBys8Y
     Control.Monad.Error.Class:          356
     Control.Monad.Reader.Class:         1028
-    Control.Monad.State.Class:          788
+    Control.Monad.State.Class:          1014
 
 parse_2IIEIBfTu54BzyNlmha4Z7
     Text.Parsec.Char:                   20662
@@ -137,12 +137,12 @@ prett_7fhh973FxfDIAV4yIljzub
 
 trans_KzbnBSIEqPI2eU1Inn4mzm
     Control.Monad.Trans.Reader:         7842
-    Control.Monad.Trans.State.Lazy:     8860
+    Control.Monad.Trans.State.Lazy:     9234
 
 unbou_0qoPFi24C6U8BOQrUnhlMl
     Unbound.Generics.LocallyNameless.Alpha:53472
     Unbound.Generics.LocallyNameless.Bind:9326
-    Unbound.Generics.LocallyNameless.Fresh:3771
+    Unbound.Generics.LocallyNameless.Fresh:5936
     Unbound.Generics.LocallyNameless.LFresh:18391
     Unbound.Generics.LocallyNameless.Name:29450
     Unbound.Generics.LocallyNameless.Operations:8244
@@ -151,5 +151,5 @@ unbou_0qoPFi24C6U8BOQrUnhlMl
 
 
 
-packed metadata: 889747
+packed metadata: 883617
 

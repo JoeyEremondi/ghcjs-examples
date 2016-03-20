@@ -15,12 +15,20 @@ import Control.Exception
 import Control.Monad
 import Control.Monad.Reader
 
+import Text.Parsec.Pos (SourcePos, sourceColumn, sourceLine)
+
 import qualified Language.LambdaPiPlus as LPP
 
 import GHCJS.Foreign.QQ
 
-setError :: String -> IO ()
-setError xs = [js_| tryps.setError(`xs); |]
+addError :: (Maybe SourcePos, String) -> IO ()
+addError (Nothing, xs) = [js_| tryps.addError(`xs); |]
+addError (Just pos, xs) =
+  let
+    ln = sourceLine pos
+    col = sourceColumn pos
+  in
+    [js_| tryps.addErrorAt(`ln, `col, `xs); |]
 
 reportSource :: String -> IO ()
 reportSource src = [js_| tryps.reportTypeError(`src); |]
@@ -33,12 +41,15 @@ compileWorker mv unmask =
         src  <- takeMVar mv
         [js_| tryps.setBusy('Compiling...'); |]
         case LPP.parse src of
-          Left err -> setError (show err)
+          Left errList -> do
+            [js_| tryps.clearError(); |]
+            forM_ errList addError
           Right parseResult ->
              case LPP.compile parseResult LPP.initialContext of
-                  Left err            -> do
+                  Left errList            -> forM_ errList $ \(loc, err) -> do
+                    [js_| tryps.clearError(); |]
                     let errString = show err
-                    setError $ show err
+                    addError (loc, err)
                     reportSource src
                   Right (_, output) -> [js_| tryps.setResult(`output); |]
 

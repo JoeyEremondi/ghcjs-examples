@@ -36,6 +36,13 @@ function TryPs(editor, res, res_text, run_btn, run_output, run_templ, prelude) {
         // var x;
         // while(x = that.waiting.pop()) x();
     });
+
+    this.setCursorPos = function(l,c)
+    {
+      this.editor.focus();
+      this.editor.setCursor(l-1,c-1);
+    }
+
     document.getElementById(run_btn).addEventListener('click', function() {
         that.changed = true;
         var x;
@@ -52,48 +59,68 @@ function TryPs(editor, res, res_text, run_btn, run_output, run_templ, prelude) {
         // addScript(that.compiledPrelude + that.code);
         // addScript("runPS();");
     });
+
+  this.getPrelude = function() {
+      return this.prelude;
+  }
+
+  this.waitForChange = function(c) {
+      if(this.changed) c(); else this.waiting.push(c);
+  }
+
+  this.getEditorContents = function() {
+      this.changed = false;
+      return this.editor['getDoc']()['getValue']();
+  }
+
+  this.clearError = function() {
+      this.result.className = "error";
+      this.result_text.innerHTML = "";
+  }
+
+  this.addError = function(err) {
+      this.result.className = "error";
+      this.result_text.innerHTML += err;
+  }
+
+  this.addErrorAt = function(ln, col, err) {
+      this.result.className = "error";
+      //this.result_text.textContent = 'Goog'.link('http://google.com') + '\n' + err;
+      this.result_text.innerHTML +=
+        '<a href="#" onclick="tryps.setCursorPos('
+        + ln + "," + col + ');">  '
+        + ln.toString() + "," + col.toString()
+        + " </a>"
+        + "&#58; "
+        + err;
+  }
+
+  this.reportTypeError = function(source) {
+      var ourBox = document.getElementById('allowReportCheck');
+      if (this.userRef && ourBox.checked)
+      {
+        this.userRef.push(source);
+      }
+  }
+
+  this.setCompiledPrelude = function(x) {
+      this.compiledPrelude = x;
+  }
+
+  this.setResult = function(res) {
+      this.result.className = "runnable";
+      this.result_text.textContent = res;
+      this.code = res;
+  }
+
+  this.setBusy = function(msg) {
+      this.result.className = "busy";
+      this.result_text.textContent = msg;
+  }
+
 }
 
-TryPs.prototype.getPrelude = function() {
-    return this.prelude;
-}
 
-TryPs.prototype.waitForChange = function(c) {
-    if(this.changed) c(); else this.waiting.push(c);
-}
-
-TryPs.prototype.getEditorContents = function() {
-    this.changed = false;
-    return this.editor['getDoc']()['getValue']();
-}
-
-TryPs.prototype.setError = function(err) {
-    this.result.className = "error";
-    this.result_text.textContent = err;
-}
-
-TryPs.prototype.reportTypeError = function(source) {
-    var ourBox = document.getElementById('allowReportCheck');
-    if (this.userRef && ourBox.checked)
-    {
-      this.userRef.push(source);
-    }
-}
-
-TryPs.prototype.setCompiledPrelude = function(x) {
-    this.compiledPrelude = x;
-}
-
-TryPs.prototype.setResult = function(res) {
-    this.result.className = "runnable";
-    this.result_text.textContent = res;
-    this.code = res;
-}
-
-TryPs.prototype.setBusy = function(msg) {
-    this.result.className = "busy";
-    this.result_text.textContent = msg;
-}
 
 var tryps;
 function trypsInit() {
