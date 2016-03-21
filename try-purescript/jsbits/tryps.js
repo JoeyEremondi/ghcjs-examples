@@ -28,6 +28,8 @@ function TryPs(editor, res, res_text, run_btn, run_output, run_templ) {
         document.getElementById(editor), { 'lineNumbers': true
                                          , 'mode': 'haskell'
                                          , 'theme': 'elegant'
+                                         , 'tabSize': 2
+                                         , 'indentWithTabs' : false
                                          });
 
     var that = this;
@@ -36,6 +38,8 @@ function TryPs(editor, res, res_text, run_btn, run_output, run_templ) {
         // var x;
         // while(x = that.waiting.pop()) x();
     });
+
+    //this.editor.matchBrackets();
 
     this.setCursorPos = function(l,c)
     {
