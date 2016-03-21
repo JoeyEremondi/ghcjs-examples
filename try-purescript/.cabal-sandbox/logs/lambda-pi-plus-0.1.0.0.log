@@ -1,8 +1,19 @@
 Configuring lambda-pi-plus-0.1.0.0...
 Building lambda-pi-plus-0.1.0.0...
 Preprocessing library lambda-pi-plus-0.1.0.0...
-[ 7 of 12] Compiling PatternUnify.Run ( src/PatternUnify/Run.hs, dist/dist-sandbox-4d9c445/build/PatternUnify/Run.js_o )
-[11 of 12] Compiling Language.LambdaPiPlus.Internals ( src/Language/LambdaPiPlus/Internals.hs, dist/dist-sandbox-4d9c445/build/Language/LambdaPiPlus/Internals.js_o ) [TH]
+[ 7 of 12] Compiling Common           ( src/Common.hs, dist/dist-sandbox-4d9c445/build/Common.js_o )
+
+src/Common.hs:18:1: Warning:
+    The import of ‘Text.ParserCombinators.Parsec.Error’ is redundant
+      except perhaps to import instances from ‘Text.ParserCombinators.Parsec.Error’
+    To import instances alone, use: import Text.ParserCombinators.Parsec.Error()
+
+src/Common.hs:23:1: Warning:
+    The qualified import of ‘Data.Map’ is redundant
+      except perhaps to import instances from ‘Data.Map’
+    To import instances alone, use: import Data.Map()
+[10 of 12] Compiling Main             ( src/Main.hs, dist/dist-sandbox-4d9c445/build/Main.js_o )
+[11 of 12] Compiling Language.LambdaPiPlus.Internals ( src/Language/LambdaPiPlus/Internals.hs, dist/dist-sandbox-4d9c445/build/Language/LambdaPiPlus/Internals.js_o )
 Linking Template Haskell (Common,Constraint,ConstraintBased,Main,PatternUnify.Check,PatternUnify.Context,PatternUnify.Kit,PatternUnify.Run,PatternUnify.Tm,PatternUnify.Unify,ThRunner1)
 
 src/Language/LambdaPiPlus/Internals.hs:13:1: Warning:
@@ -33,10 +44,6 @@ src/Language/LambdaPiPlus.hs:21:1: Warning:
     To import instances alone, use: import PatternUnify.Tm()
 In-place registering lambda-pi-plus-0.1.0.0...
 Preprocessing executable 'lambda-pi-plus' for lambda-pi-plus-0.1.0.0...
-[ 3 of 10] Compiling PatternUnify.Context ( src/PatternUnify/Context.hs, dist/dist-sandbox-4d9c445/build/lambda-pi-plus/lambda-pi-plus-tmp/PatternUnify/Context.js_o )
-[ 4 of 10] Compiling PatternUnify.Check ( src/PatternUnify/Check.hs, dist/dist-sandbox-4d9c445/build/lambda-pi-plus/lambda-pi-plus-tmp/PatternUnify/Check.js_o )
-[ 5 of 10] Compiling PatternUnify.Unify ( src/PatternUnify/Unify.hs, dist/dist-sandbox-4d9c445/build/lambda-pi-plus/lambda-pi-plus-tmp/PatternUnify/Unify.js_o )
-[ 6 of 10] Compiling PatternUnify.Run ( src/PatternUnify/Run.hs, dist/dist-sandbox-4d9c445/build/lambda-pi-plus/lambda-pi-plus-tmp/PatternUnify/Run.js_o )
 [ 7 of 10] Compiling Common           ( src/Common.hs, dist/dist-sandbox-4d9c445/build/lambda-pi-plus/lambda-pi-plus-tmp/Common.js_o )
 
 src/Common.hs:18:1: Warning:

@@ -1,12 +1,12 @@
 code size summary per package:
 
 base:                    496648
-conta_5w3UY4chXx62LVUOUrXeRm:135249
+conta_5w3UY4chXx62LVUOUrXeRm:147735
 contr_3zFNzNW4TxBEjBku2BsNrs:881
 ghc-prim:                17163
 ghcjs_B7KLFJ07Vte3zPHAgRIBTb:10230
 integer-gmp:             26217
-main:                    4380403
+main:                    4408784
 mtl_JY14bYun6zF5fM4QvBys8Y:2398
 parse_2IIEIBfTu54BzyNlmha4Z7:480002
 prett_7fhh973FxfDIAV4yIljzub:66063
@@ -83,7 +83,7 @@ base
 
 conta_5w3UY4chXx62LVUOUrXeRm
     Data.Graph:                         20933
-    Data.Map.Base:                      58508
+    Data.Map.Base:                      70994
     Data.Set.Base:                      55536
     Data.Tree:                          272
 
@@ -106,16 +106,16 @@ integer-gmp
     GHC.Integer.Type:                   25871
 
 main
-    Common:                             1109465
-    Constraint:                         293388
-    ConstraintBased:                    249508
+    Common:                             1109862
+    Constraint:                         321939
+    ConstraintBased:                    250314
     Main:                               6958
-    PatternUnify.Check:                 461140
+    PatternUnify.Check:                 459695
     PatternUnify.Context:               543609
     PatternUnify.Kit:                   63975
     PatternUnify.Run:                   49814
     PatternUnify.Tm:                    1135524
-    PatternUnify.Unify:                 467022
+    PatternUnify.Unify:                 467094
 
 mtl_JY14bYun6zF5fM4QvBys8Y
     Control.Monad.Error.Class:          356
@@ -151,5 +151,5 @@ unbou_0qoPFi24C6U8BOQrUnhlMl
 
 
 
-packed metadata: 883617
+packed metadata: 887732
 

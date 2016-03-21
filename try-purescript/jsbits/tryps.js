@@ -1,5 +1,5 @@
 /** @constructor */
-function TryPs(editor, res, res_text, run_btn, run_output, run_templ, prelude) {
+function TryPs(editor, res, res_text, run_btn, run_output, run_templ) {
 
     this.fireBaseRef = new Firebase("https://lambda-pi-plus.firebaseio.com");
     this.userRef = null;
@@ -21,8 +21,8 @@ function TryPs(editor, res, res_text, run_btn, run_output, run_templ, prelude) {
     this.result_text = document.getElementById(res_text);
     this.run_output = document.getElementById(run_output);
     this.code = null;
-    this.prelude = document.getElementById(prelude).text;
-    this.compiledPrelude = '';
+    //this.prelude = document.getElementById(prelude).text;
+    //this.compiledPrelude = '';
     this.run_template = document.getElementById(run_templ).text.replace(/<!--([^]*)-->/gm, "$1");
     this.editor = CodeMirror['fromTextArea'](
         document.getElementById(editor), { 'lineNumbers': true
@@ -60,9 +60,9 @@ function TryPs(editor, res, res_text, run_btn, run_output, run_templ, prelude) {
         // addScript("runPS();");
     });
 
-  this.getPrelude = function() {
-      return this.prelude;
-  }
+  //this.getPrelude = function() {
+  //    return this.prelude;
+  //}
 
   this.waitForChange = function(c) {
       if(this.changed) c(); else this.waiting.push(c);
@@ -75,7 +75,7 @@ function TryPs(editor, res, res_text, run_btn, run_output, run_templ, prelude) {
 
   this.clearError = function() {
       this.result.className = "error";
-      this.result_text.innerHTML = "";
+      this.result_text.textContent = "Error output:\n\n";
   }
 
   this.addError = function(err) {
@@ -102,9 +102,9 @@ function TryPs(editor, res, res_text, run_btn, run_output, run_templ, prelude) {
       }
   }
 
-  this.setCompiledPrelude = function(x) {
-      this.compiledPrelude = x;
-  }
+  // this.setCompiledPrelude = function(x) {
+  //     this.compiledPrelude = x;
+  // }
 
   this.setResult = function(res) {
       this.result.className = "runnable";
@@ -124,5 +124,5 @@ function TryPs(editor, res, res_text, run_btn, run_output, run_templ, prelude) {
 var tryps;
 function trypsInit() {
     tryps = new TryPs( 'editor', 'result_outer', 'result_text', 'run_button'
-                      , 'run_output', 'run_template', 'purescript_prelude');
+                      , 'run_output', 'run_template');
 }
